@@ -1,5 +1,6 @@
 # -TM1637
 Код очень простой :
+```cpp
 int HOURS;
 int min;
 #include <microDS3231.h>
@@ -18,3 +19,4 @@ void loop() {
   min = rtc.getMinutes();
   disp.displayClock(der, min);  // вывести часы и минуты
 }
+```
